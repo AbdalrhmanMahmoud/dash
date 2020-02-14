@@ -1,0 +1,13 @@
+*{
+  box-sizing: border-box;
+}
+.main{
+min-height: 100vh;
+  .content{
+    width: calc(100% - 250px);
+    min-height: 100%;
+    transition: 0.3s;
+    float: right;
+    will-change: width;
+  }
+}
